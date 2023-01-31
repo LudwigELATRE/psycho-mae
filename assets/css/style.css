@@ -1,0 +1,131 @@
+body {
+  background-color: #adebbf96;
+}
+/* HEADER */
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.container-header .container-header-left {
+  width: 30%;
+  position: relative;
+}
+
+.container-header .container-header-left .logo {
+  width: 300px;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 192px;
+}
+
+.container-header .container-header-right {
+  width: 100%;
+  height: 297px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container-header .container-header-right .header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-header .container-header-right .header-title h1 {
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 74px;
+}
+
+.container-header .container-header-right .header-title h4 {
+  font-size: 20px;
+  margin-left: 76px;
+  margin-top: 10px;
+}
+
+.container-header .container-header-right .nav-bar-header {
+  width: 85%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-header .container-header-right .nav-bar-header ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.container-header .container-header-right .nav-bar-header ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 7px 20px 7px 20px;
+  border-radius: 5px;
+}
+/* Main */
+.background-section img {
+  width: 100vw;
+  height: 600px;
+}
+
+.main-consult {
+  width: 90%;
+  margin: auto;
+  padding: 18px;
+  background-color: #7cb9b2;
+}
+.main-consult ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-consult ul li a {
+  font-size: 26px;
+  color: black;
+  text-decoration: none;
+}
+
+.main-bilan {
+  width: 85%;
+  margin: auto;
+  padding: 18px;
+  background-color: #7cb9b2;
+}
+
+.main-bilan ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 84%;
+}
+
+.main-bilan ul li a {
+  font-size: 26px;
+  color: black;
+  text-decoration: none;
+}
+
+.main-bilan ul li#main-bilan-li {
+  margin-left: 24px;
+}
+
+.container-downbelow .container-up {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.container-downbelow .container-up img {
+  width: 500px;
+  margin: 20px;
+}
+
+.container-up-location {
+  background-color: green;
+  width: 50%;
+  margin: 20px;
+  height: 360px;
+}
